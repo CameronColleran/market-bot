@@ -8,7 +8,7 @@ from random_stock import tweet_random_stock
 
 HOURLY = ":00"
 DAILY = "17:30"
-SECOND_INTERVAL = 10
+SECOND_INTERVAL = 30
 
 # schedule jobs
 schedule.every().hour.at(HOURLY).do(tweet_random_stock)
